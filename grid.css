@@ -1,3 +1,34 @@
 main {
  background-color: white;
 }
+
+.see-thru {
+ display: flex;
+ flex-direction: column;
+ justify-content: end;
+
+ color: white;
+ padding: 1.25em;
+ padding-top: 5em;
+
+ background-image: url(images/img1.png);
+ background-size: cover;
+
+ & .see-date {
+  font-weight: 300;
+  font-size: 0.75rem;
+ }
+
+ & h3 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.15em;
+  margin: 0.25em 0;
+ }
+
+ & .see-subtitle {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4em;
+ }
+}
