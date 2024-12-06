@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "Source Sans 3";
+  align-items: center;
+  margin: auto;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

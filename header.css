@@ -1,0 +1,47 @@
+h1 {
+ margin: 0;
+ font-size: 0.9rem;
+}
+
+header {
+ display: flex;
+ justify-content: space-between;
+ padding: 1em;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+}
+
+.header-hero {
+ display: flex;
+ cursor: pointer;
+ align-items: center;
+}
+
+header img {
+ width: 26px;
+ height: 26px;
+ margin-right: 0.25em;
+}
+
+.header-pages-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.header-pages {
+ font-weight: 700;
+ font-size: 0.75rem;
+ margin: 0 0.7em;
+ cursor: pointer;
+
+ &:hover {
+  opacity: 0.85;
+ }
+
+ &:active {
+  opacity: 0.7;
+ }
+}
