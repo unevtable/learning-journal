@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding-top: 3.64em;
   font-family: "Source Sans 3";
   align-items: center;
   margin: auto;
@@ -9,4 +10,8 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+img {
+  -webkit-user-drag: none;
 }
