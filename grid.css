@@ -8,8 +8,7 @@ main {
  justify-content: end;
 
  color: white;
- padding: 1.25em;
- padding-top: 5em;
+ padding: 5.5em 2em 1.25em 1.25em;
 
  background-image: url(images/img1.png);
  background-size: cover;
@@ -27,8 +26,8 @@ main {
  }
 
  & .see-subtitle {
-  font-size: 0.9rem;
-  font-weight: 400;
+  font-size: 0.85rem;
+  font-weight: 325;
   line-height: 1.4em;
  }
 }
