@@ -5,29 +5,79 @@ main {
 .see-thru {
  display: flex;
  flex-direction: column;
- justify-content: end;
-
  color: white;
  padding: 5.5em 2em 1.25em 1.25em;
 
+ user-select: none;
+ cursor: pointer;
+
  background-image: url(images/img1.png);
  background-size: cover;
+}
 
- & .see-date {
-  font-weight: 300;
-  font-size: 0.75rem;
+h3 {
+ font-size: 1.85rem;
+ font-weight: 700;
+ line-height: 1.15em;
+ margin: 0.25em 0;
+}
+
+.subtitle {
+ font-size: 0.9rem;
+ font-weight: 325;
+ line-height: 1.4em;
+}
+
+.see-date,
+.grid-date {
+ font-size: 0.8rem;
+ font-weight: 350;
+}
+
+.grid-container {
+ display: grid;
+}
+
+.grid-child {
+ display: flex;
+ flex-direction: column;
+ padding: 1.2em;
+
+ & img {
+  border-radius: 0.25em;
+  margin-bottom: 0.7em;
+ }
+
+ & .grid-date {
+  font-weight: 500;
  }
 
  & h3 {
-  font-size: 1.85rem;
-  font-weight: 700;
-  line-height: 1.15em;
-  margin: 0.25em 0;
+  font-size: 1.5rem;
+  margin: 0.35em 0;
  }
 
- & .see-subtitle {
-  font-size: 0.85rem;
-  font-weight: 325;
-  line-height: 1.4em;
+ & .subtitle {
+  color: 505050;
+  font-weight: 375;
+  line-height: 1.3em;
+ }
+}
+
+.grid-container button {
+ margin: auto;
+ width: fit-content;
+ border: none;
+ background-color: inherit;
+ cursor: pointer;
+ font-family: inherit;
+ font-weight: bold;
+
+ &:hover {
+  opacity: 0.8;
+ }
+
+ &:active {
+  opacity: 0.65;
  }
 }
