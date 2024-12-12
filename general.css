@@ -2,6 +2,7 @@ body {
   color: black;
   font-family: "Source Sans 3";
   padding-top: 3.64em;
+  scroll-behavior: smooth;
 }
 
 body,
@@ -19,5 +20,6 @@ a {
 
 img {
   width: 100%;
+  object-fit: cover;
   -webkit-user-drag: none;
 }
